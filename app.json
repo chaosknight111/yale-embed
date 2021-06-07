@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Yale EMBED - DEV",
+    "slug": "yale-embed-mobileapp",
+    "version": "1.0.0",
+    "privacy":"public",
+    "orientation": "portrait",
+    "icon": "./assets/Embed-appicon-1112-01.png",
+    "splash": {
+      "image": "./assets/BUP-ER-app-background.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.amstonstudio.yaleembed.dev",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.amstonstudio.yaleembed.dev",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
